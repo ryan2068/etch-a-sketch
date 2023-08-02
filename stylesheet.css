@@ -1,0 +1,26 @@
+body {
+    margin:0px;
+    padding: 0px;
+    
+}
+.container {
+    display: flex;
+    gap: 3px;
+    width: 1920px;
+    height: 1080px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    
+    
+}
+
+.container > div {
+    display: flex;
+    
+    height:80px;
+    width: 80px;
+    border: 2px solid black    
+    
+}
+
